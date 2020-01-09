@@ -1,0 +1,7 @@
+type Example {
+  json: AWSJSON
+}
+
+type Query {
+	getExample(id: String!): Example!
+}
